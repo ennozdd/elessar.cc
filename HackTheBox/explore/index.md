@@ -2,6 +2,11 @@
 layout: default
 ---
 
+# Quick Summary
+
+Explore is an easy difficulty box. Unlike other machines, this one is running on Android. While poking around, we discover an Open Port Vulnerability and a public exploit for that. Once in the box, we escalate privileges by connecting to the ADB interface.
+
+
 # 05 - Nmap
 ```sql
 # Nmap 7.91 scan initiated Tue Oct 26 05:04:52 2021 as: nmap -sC -sV -p- -oA nmap/explore -vvv 10.10.10.247
